@@ -5,5 +5,9 @@ export {
   Books,
   CaretLeft,
   CaretRight,
-  Play
+  Play,
+  Shuffle,
+  SkipBack,
+  SkipForward,
+  Repeat,
 } from "@phosphor-icons/react";
