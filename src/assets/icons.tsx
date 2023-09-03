@@ -10,4 +10,10 @@ export {
   SkipBack,
   SkipForward,
   Repeat,
+  MonitorPlay,
+  MicrophoneStage,
+  Rows,
+  Devices,
+  SpeakerLow,
+  ArrowsOutSimple,
 } from "@phosphor-icons/react";

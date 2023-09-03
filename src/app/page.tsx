@@ -10,6 +10,12 @@ import {
   SkipBack,
   SkipForward,
   Repeat,
+  MonitorPlay,
+  MicrophoneStage,
+  Rows,
+  Devices,
+  SpeakerLow,
+  ArrowsOutSimple,
 } from "../assets/icons";
 export default function Home() {
   return (
@@ -256,7 +262,7 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+      <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Image
             width={56}
@@ -289,7 +295,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div></div>
+        <div className="flex items-center gap-2">
+          <MonitorPlay weight="bold" className="text-zinc-200" />
+          <MicrophoneStage weight="bold" className="text-zinc-200" />
+          <Rows weight="bold" className="text-zinc-200" />
+          <Devices weight="bold" className="text-zinc-200" />
+          <div className="flex items-center gap-2">
+            <SpeakerLow weight="bold" className="text-zinc-200" />
+            <div className="h-1 rounded-full w-16 bg-zinc-600">
+              <div className="h-1 rounded-full bg-zinc-200 w-4"></div>
+            </div>
+          </div>
+          <ArrowsOutSimple />
+        </div>
       </footer>
     </div>
   );
